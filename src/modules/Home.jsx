@@ -41,7 +41,6 @@ const Home = () => {
       )}
       <Products />
       <Categories />
-      <Footer />
     </>
   );
 };
