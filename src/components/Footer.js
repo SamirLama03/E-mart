@@ -10,18 +10,20 @@ const Footer = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
               viewBox="0 0 24 24"
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span className="ml-3 text-xl">Tailblocks</span>
+            <span className="ml-3 text-xl">E-mart</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
-            Air plant banjo lyft occupy retro adaptogen indego
+            This site is only a personal project by Samir Lama
+            <br />
+            Using React js and tailwind Css with public Api from Fake store Api.
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
@@ -31,73 +33,36 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="/categories/men's clothing"
+                >
+                  Men's Clothing
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="/categories/women's clothing"
+                >
+                  Women's Clothing
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="/categories/electronics"
+                >
+                  Electronics
+                </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                <a
+                  className="text-gray-600 hover:text-gray-800"
+                  href="/categories/jewellery"
+                >
+                  Jewellery
+                </a>
               </li>
             </nav>
           </div>
@@ -106,23 +71,23 @@ const Footer = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
-            © 2020 Tailblocks —
+            E-mart
             <a
               href="https://twitter.com/knyttneve"
               rel="noopener noreferrer"
               className="text-gray-600 ml-1"
               target="_blank"
             >
-              @knyttneve
+              @SamirLama
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a className="text-gray-500">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -132,9 +97,9 @@ const Footer = () => {
             <a className="ml-3 text-gray-500">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -145,9 +110,9 @@ const Footer = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -159,9 +124,9 @@ const Footer = () => {
               <svg
                 fill="currentColor"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="0"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >

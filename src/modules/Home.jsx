@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Categories />
+
       <div className="flex flex-col text-center w-full mt-12">
         <h2 className="text-xs text-green-500 tracking-widest font-medium title-font mb-1">
           PRODUCTS
@@ -40,8 +40,8 @@ const Home = () => {
         <div>Loading....</div>
       )}
       <Products />
-      <FeaturesCard />
-      <StatCard />
+      <Categories />
+      <Footer />
     </>
   );
 };

@@ -28,15 +28,22 @@ const Cart = () => {
   };
 
   const handleDec = (id) => {
-    const updatedCart = carts.map((item) => {
-      if (item.id === id) {
-        return {
-          ...item,
-          quantity: item.quantity - 1,
-        };
-      }
-      return item;
-    });
+    const updatedCart = carts
+      .map((item) => {
+        if (item.id === id) {
+          const updatedQuantity = item.quantity - 1;
+          // Remove the item from the cart if the quantity becomes 0 or less
+          if (updatedQuantity <= 0) {
+            return null;
+          }
+          return {
+            ...item,
+            quantity: updatedQuantity,
+          };
+        }
+        return item;
+      })
+      .filter(Boolean); // Filter out null values (items with quantity <= 0)
     localStorage.setItem("cart", JSON.stringify(updatedCart));
     navigate("/cart");
   };
